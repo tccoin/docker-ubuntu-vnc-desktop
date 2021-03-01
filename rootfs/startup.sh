@@ -72,4 +72,4 @@ fi
 PASSWORD=
 HTTP_PASSWORD=
 
-exec /bin/tini -- supervisord -n -c /etc/supervisor/supervisord.conf
+supervisord -n -c /etc/supervisor/supervisord.conf
